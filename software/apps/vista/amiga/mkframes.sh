@@ -11,4 +11,4 @@ do
 done
 
 cat $(find raw -name "*.bin" | sort) > raw/pack.bin
-uf2conv -f pico -b 0x1003c000 raw/pack.bin -o amiga_data.uf2
+python3 uf2conv.py -f pico -b 0x1003c000 raw/pack.bin -o amiga_data.uf2
