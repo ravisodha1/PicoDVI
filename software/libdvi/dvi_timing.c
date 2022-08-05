@@ -15,7 +15,7 @@
 const struct dvi_timing __dvi_const(dvi_timing_640x480p_60hz) = {
 	.h_sync_polarity   = false,
 	.h_front_porch     = 16,
-	.h_sync_width      = 96,
+	.h_sync_width      = 128,
 	.h_back_porch      = 48,
 	.h_active_pixels   = 640,
 
